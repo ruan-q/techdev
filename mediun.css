@@ -1,0 +1,130 @@
+*{margin: 0; padding: 0; box-sizing: content-box;}
+.layout{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+header {
+    padding: 0;
+    background: rgb(0, 85, 128);
+    height: 85px;
+    box-shadow: 0px 3px 3px black;
+}
+.logo{
+    float: left;
+    margin-left: 30px;
+    margin-top: -6px;
+    padding: 0px;
+    width: 260px;
+}
+#menu{
+    display: inline-block;
+    list-style: none;
+    height: 20px;
+    padding: 0px;
+    margin-left: 420px;
+    margin-top: 25px;
+}
+#menu li{
+    display: inline;
+    padding: 9px;
+}
+#menu li a{
+    padding: 3px;
+    font-family: 'Kanit', sans-serif;
+    display: inline;
+    border-radius: 5px;
+    border-bottom: 3px solid rgba(226, 166, 0, 0.979);
+    font-size: 20px;
+    color: rgb(4, 0, 63);
+    background-color: #008cff;
+    text-decoration: none;
+}
+#menu li :hover{
+    background-color: rgba(69, 149, 214, 0.904);
+    border-color: rgb(128, 104, 2);
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(0, 97, 105);
+    background: url(background.jpg);
+    background-size: 140%;
+}
+p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    text-indent:4em;
+    color: white  
+}
+#list{
+    text-indent: 0 
+}
+.subtitle{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 32px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 10px;
+    color: rgb(230, 160, 10)
+}
+h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 10px;
+    color: white
+}
+h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    padding: 2px 2px 20px;
+    text-align: center;
+    color: rgb(255, 187, 0)
+}
+h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    padding: 5%;
+    text-align: center;
+    color: rgb(248, 170, 0)
+}
+.position{
+    text-align: center;
+}
+  
+main{
+    background: #000e297e;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#intro{
+    background: #02091bf8;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#end{
+    background: rgba(221, 151, 0, 0.87);
+    width: 800px;
+    height: 50px;
+    border-radius: 2px ;
+}
+.text-end{
+    font-family: 'Noto Sans KR', sans-serif, bold;
+    padding-top: 18px;
+    font-size: 20px;
+    text-align: center;
+    text-indent:4em;
+    color: rgb(0, 9, 47)  
+}
